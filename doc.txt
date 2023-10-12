@@ -1,0 +1,24 @@
+
+MBTA API Key:"353b7541b2fa4b089132b0ae5bb90890"
+Endpoints in API documentation:
+alerts: Provides information about any service interruptions or important announcements. This might be useful if you want to factor in how alerts impact bus performance.
+
+facilities: Information about elevators, escalators, and other infrastructure. This might not be directly related to bus performance but could be useful if looking at accessibility or other related metrics.
+
+predictions: Provides predicted arrival/departure times. This is crucial for understanding the real-time performance of buses compared to their scheduled times.
+
+routes: Information about all MBTA routes. This will be a starting point to understand which routes are available and what their characteristics are.
+
+schedules: Provides scheduled arrival/departure times. This is your baseline to compare against real-time performance.
+
+shapes: Gives data about stops and maps for branches, including route variations. Useful for geospatial visualizations.
+
+stops: Information about all the stops. Again, crucial for geospatial visualizations and understanding where delays or other issues might occur.
+
+trips: Data about individual trips on routes. Can help in understanding patterns in bus performance.
+
+vehicles: Provides real-time positions of vehicles. This can give insights into current bus locations, potential delays, and other performance metrics.
+
+
+Highlight on :routes, stops, schedules, predictions, and vehicles.
+
